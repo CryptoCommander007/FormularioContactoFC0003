@@ -1,101 +1,85 @@
-/* Estilo para el contenedor principal del formulario */
-.FC0003-container {
-    margin-top: 20px;
-    background-color: #bd4e4e; /* Color de fondo */
-    padding: 20px; /* Espaciado interior */
-}
+/************************************************************************************************************/
+/************************************************************************************************************/
+/*******************************ESTILOS FORMULARIO DE CONTACTO FC0003 ***************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
 
-/* Estilo para el contenedor de información de contacto */
-.FC0003-contact-info {
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo transparente al 90% */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra */
-    margin-right: 20px;
-    width: calc(50% - 20px); /* Ancho del 50% menos el margen */
-    opacity: 0.75;
-}
 
-/* Estilo para el título del contenedor de información de contacto */
+/* Estilo para el título "Información de Contacto" */
+.FC0003-contact-info{
+    margin-top: 50px;
+}
+/* Estilo para el título "Información de Contacto" */
 .FC0003-contact-info h2 {
-    font-size: 32px;
-    margin-top: 0;
-    margin-bottom: 15px; /* Agrega un margen inferior de 15px */
-    color: #333333; /* Color de texto */
-    text-transform: uppercase; /* Convertir texto a mayúsculas */
-}
-
-/* Estilo para la lista de información de contacto */
-.FC0003-contact-info ul {
-    list-style: none;
-    margin-top: 20px;
-    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* Estilo para los elementos de la lista de información de contacto */
 .FC0003-contact-info ul li {
-    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     color: #666666;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
-/* Estilo para el contenedor del formulario */
-.FC0003-contact-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra */
-    width: calc(50% - 20px); /* Ancho del 50% menos el margen */
-    opacity: 0.75;
-}
-
-/* Estilo para el título del formulario */
+/* Estilo para el título "Envía un mensaje" */
 .FC0003-contact-form h2 {
-    font-size: 28px;
-    margin-top: 0;
-    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
     color: #333333;
-    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.FC0003-contact-form{
+    margin-top: 50px;
 }
 
 /* Estilo para los campos de entrada y textarea del formulario */
 .FC0003-contact-form input[type="text"],
 .FC0003-contact-form input[type="email"],
 .FC0003-contact-form textarea {
-    width: calc(100% - 24px); /* Ancho total menos el padding */
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    transition: border-color 0.3s; /* Efecto de transición en el color del borde */
+    color: #333333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
 }
 
-/* Estilo para los campos de entrada al pasar el ratón */
-.FC0003-contact-form input[type="text"]:hover,
-.FC0003-contact-form input[type="email"]:hover,
-.FC0003-contact-form textarea:hover {
-    border-color: #007bff; /* Cambia el color del borde al pasar el ratón */
-}
-
-/* Estilo para el botón de enviar del formulario */
+/* Estilo para el botón "Enviar Mensaje" */
 .FC0003-contact-form button {
-    width: calc(100% - 24px); /* Ancho total menos el padding */
-    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
-    color: #ffffff;
-    font-size: 16px;
+    padding: 12px 24px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+    transition: background-color 0.3s;
 }
 
-/* Estilo para el botón de enviar al pasar el ratón */
-.FC0003-contact-form button:hover {
-    background-color: #0056b3;
+/* Estilo para los enlaces en la información de contacto */
+.FC0003-contact-info a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Estilo para los enlaces al pasar el ratón en la información de contacto */
+.FC0003-contact-info a:hover {
+    color: #0056b3;
 }
